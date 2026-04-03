@@ -18,8 +18,14 @@ npm install
 
 ### 2. Configure environment
 
+**Linux / macOS:**
 ```bash
 cp .env.example .env
+```
+
+**Windows (cmd):**
+```cmd
+copy .env.example .env
 ```
 
 Edit `.env` to match your local PostgreSQL credentials:
